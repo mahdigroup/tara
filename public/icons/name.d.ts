@@ -34,6 +34,7 @@
 	| "clock"
 	| "coins/bitcoin"
 	| "collection"
+	| "columns"
 	| "contracts/proxy"
 	| "contracts/regular_many"
 	| "contracts/regular"
