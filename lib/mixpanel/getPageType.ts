@@ -51,7 +51,6 @@ export const PAGE_TYPE_DICT: Record<Route['pathname'], string> = {
   '/mud-worlds': 'MUD worlds',
 
   // service routes, added only to make typescript happy
-  '/login': 'Login',
   '/sprite': 'Sprite',
   '/api/metrics': 'Node API: Prometheus metrics',
   '/api/monitoring/invalid-api-schema': 'Node API: Prometheus metrics',
@@ -62,8 +61,6 @@ export const PAGE_TYPE_DICT: Record<Route['pathname'], string> = {
   '/api/healthz': 'Node API: Health check',
   '/api/config': 'Node API: App config',
   '/api/sprite': 'Node API: SVG sprite content',
-  '/auth/auth0': 'Auth',
-  '/auth/unverified-email': 'Unverified email',
 };
 
 export default function getPageType(pathname: Route['pathname']) {

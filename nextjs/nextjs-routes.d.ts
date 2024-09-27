@@ -28,9 +28,7 @@ declare module "nextjs-routes" {
     | StaticRoute<"/api-docs">
     | DynamicRoute<"/apps/[id]", { "id": string }>
     | StaticRoute<"/apps">
-    | StaticRoute<"/auth/auth0">
     | StaticRoute<"/auth/profile">
-    | StaticRoute<"/auth/unverified-email">
     | DynamicRoute<"/batches/[number]", { "number": string }>
     | StaticRoute<"/batches">
     | DynamicRoute<"/blobs/[hash]", { "hash": string }>
@@ -45,7 +43,6 @@ declare module "nextjs-routes" {
     | StaticRoute<"/gas-tracker">
     | StaticRoute<"/graphiql">
     | StaticRoute<"/">
-    | StaticRoute<"/login">
     | StaticRoute<"/mud-worlds">
     | DynamicRoute<"/name-domains/[name]", { "name": string }>
     | StaticRoute<"/name-domains">
